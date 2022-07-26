@@ -1,0 +1,187 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.01)), url("mountain.jpg");
+}
+div.logo{
+    width: auto;
+}
+.flex2{
+    display: flex;
+}
+/* #navbar{
+     background-color: aqua; 
+} */
+.flex-p{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+}
+.navbar-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+}
+.contact-btn{
+    background-color: purple;
+    padding: 2px 20px;
+    margin: 1px 10px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.match-btn{
+    background-color: rgb(5, 201, 201);
+    color: white;
+    padding: 2px 20px;
+    margin: 1px 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+#content{
+    display: flex;
+    position: fixed;
+}
+
+.content-main, .content-sidebar{
+    display: flex;
+    height: auto;
+}
+
+.content-sidebar{
+    max-width: 50%;
+    height: auto;
+    padding: 30px;
+    background-color: rgb(82, 0, 122);
+}
+aside{
+    display: flex;
+}
+.content-main{
+    max-width: 50%;
+    flex-wrap: wrap;
+}
+
+.view-btn{
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 50px;
+    margin: 4px 2px;
+    display: block;
+    cursor: pointer;
+}
+.view-btn:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+
+.facebook-btn{
+    background-color: #4267B2;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+.twitter-btn{
+    background-color: #1DA1F2;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+.linkedin-btn{
+    background-color: #0072b1;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+.pinterest-btn{
+    background-color: #E60023;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+a[class~=fa]{
+    color: white;
+    font-size: 22px;
+}
+.header1, .header2{
+    display: inline;
+}
+.menu{
+    padding: 20px;
+}
+.header2{
+    color: rgb(27, 187, 192);
+}
+
+@media screen and (max-width: 988px) {
+    body{
+     height: 100vh;
+    }
+    .view-btn{
+        padding: 3px 15px;
+        font-size: 14px;
+    }
+    .facebook-btn{
+        padding: 4px 9px;
+    }
+    .twitter-btn{
+        padding: 4px 9px;
+    }
+    .linkedin-btn{
+        padding: 4px 9px;
+    }
+    .pinterest-btn{
+        padding: 4px 9px;
+    }
+    .center{
+        height: 50px;
+    }
+    .flex-p{
+        display: none;
+    }
+    .flex-2{
+        display: inline;
+    }
+    .menu{
+        display: none;
+        margin-left: 10px;
+    }
+    .header1, .header2{
+        font-size: 40px; 
+    }
+    #search{
+        display: none;
+    }
+}
