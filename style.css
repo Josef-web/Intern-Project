@@ -147,7 +147,7 @@ a[class~=fa]{
 
 @media screen and (max-width: 988px) {
     body{
-     height: 100vh;
+    height: 100vh;
     }
     .view-btn{
         padding: 3px 15px;
